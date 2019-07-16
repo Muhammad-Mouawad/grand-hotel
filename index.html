@@ -19,13 +19,17 @@
 <body>
     <!--################### Navbar ###################-->
     <div class="navbar">
+        <input type="checkbox" class="checkbox" id="click" hidden>
+
         <!--################### Sidebar ###################-->
         <div class="sidebar">
-            <div class="menu-icon">
-                <div class="line line-1"></div>
-                <div class="line line-2"></div>
-                <div class="line line-3"></div>
-            </div>
+            <label for="click">
+                <div class="menu-icon">
+                    <div class="line line-1"></div>
+                    <div class="line line-2"></div>
+                    <div class="line line-3"></div>
+                </div>
+            </label>
             <ul class="social-icons-list">
                 <li>
                     <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
@@ -45,6 +49,40 @@
             </div>
         </div>
         <!--################### End of Sidebar ###################-->
+        <!--################### Navigation###################-->
+        <nav class="navigation">
+            <div class="navigation-header">
+                <h1 class="navigation-heading">Grand Hotel</h1>
+                <form class="navigation-search">
+                    <input type="text" class="navigation-search-input" placeholder="Search...">
+                    <button class="navigation-search-btn">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </form>
+            </div>
+            <ul class="navigation-list">
+                <li class="navigation-item">
+                    <a href="#" class="navigation-link">Home</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="#" class="navigation-link">About us</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="#" class="navigation-link">Rooms</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="#" class="navigation-link">Events</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="#" class="navigation-link">Customers</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="#" class="navigation-link">Contact</a>
+                </li>
+            </ul>
+            <div class="copyright"> &copy; 2018 Grand Hotel. All rights reserved </div>
+        </nav>
+        <!--################### End of navigation ###################-->
     </div>
     <!--################### End of navbar ###################-->
 </body>
