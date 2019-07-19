@@ -224,7 +224,7 @@ body {
 .header {
   margin-left: 8rem;
   height: 100vh;
-  background: linear-gradient(to top, rgba(0, 0, 0, .2), rgba(0, 0, 0, .5)), url(../img/header-2.jpg);
+  background: linear-gradient(to top, rgba(0, 0, 0, .2), rgba(0, 0, 0, .5)), url(../img/Hero.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
